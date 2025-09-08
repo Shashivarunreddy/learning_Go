@@ -4,6 +4,9 @@ import "fmt"
 
 const name2 string = "Gophersss"
 const pi = 3.14
+
+// we cannot use := for constants
+//we cannot change the value of a constant
 func main() {
 	const name string = "Gopher"
 	const age = 10
