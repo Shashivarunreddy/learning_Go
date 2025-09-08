@@ -24,4 +24,22 @@ func main(){
 	// 	fmt.Println("infinite loop")
 	// }
 
+
+	// we can use break and continue in for loop
+	for k := 1; k <= 5; k++ {
+		if k == 3 {
+			continue // skip the rest of the loop when k is 3
+		}
+		fmt.Println(k)
+		if k == 4 {
+			break // exit the loop when k is 4
+		}
+
+	}
+
+
+	// range loop
+	for a := range 4{
+		fmt.Println(a)
+	}
 }
